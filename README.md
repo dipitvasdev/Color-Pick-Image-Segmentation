@@ -3,9 +3,12 @@
 
 This project has 2 parts :- 
 
-   1) **COLOR PICKING** :- It picks a certain number of dominat colors from the given image, by the use of clustering from Kmeans Algorithm.
+   1) **COLOR PICKING** :- It picks a certain number of dominant colors from the given image, by the use of clustering from Kmeans Algorithm.
   
   2) **SEGMENTATION** :- The code then uses these picked colors to recreate a image with the picked colors.
+  
+_Example_ 
+
 MODEL - K Means Clustering (Unsupervised)
 
-GITHUB:- github.com/dipitvasdev
+GITHUB:- https://github.com/dipitvasdev
