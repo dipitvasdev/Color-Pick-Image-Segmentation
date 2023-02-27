@@ -50,7 +50,7 @@ class App:
                 a = cv2.cvtColor(a,cv2.COLOR_BGR2RGB)
 
                 
-                st.image(a)
+                st.image(a, width = 300)
                 st.download_button("Down Color Pallter",open("Color_Pallete.png","rb"), "Color_Pallete.png", use_container_width= True)
 
 
@@ -61,7 +61,7 @@ class App:
                 
                 cv2.imwrite("Segmented Image.png",seg_img)
 
-                st.image(seg_img)
+                st.image(seg_img, width = 500)
                 st.download_button("Download Segmented Image",open("Segmented Image.png","rb"), "Segmented Image.png", use_container_width= True)
 
 
