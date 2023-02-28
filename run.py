@@ -51,7 +51,7 @@ class App:
 
                 
                 st.image(a, width = 300)
-                st.download_button("Down Color Pallter",open("Color_Pallete.png","rb"), "Color_Pallete.png", use_container_width= True)
+                st.download_button("Download Color Pallter",open("Color_Pallete.png","rb"), "Color_Pallete.png", use_container_width= True)
 
 
                 seg_img=np.zeros((img_flat.shape[0],3),dtype='uint8')
