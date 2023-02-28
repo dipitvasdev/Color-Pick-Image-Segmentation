@@ -20,7 +20,7 @@ class App:
                 st.session_state.page = 1
                 st.title("Color Picker and Image Segmentation Tool ")
 
-                st.text("This tool will generate a downloadable color pallete for your image, and also a segmented image using K Means") 
+                st.caption("This tool will generate a downloadable color pallete for your image, and also a segmented image using K Means") 
                 bytes = self.image.read()
                 file_bytes = np.asarray(bytearray(bytes))
                 img = cv2.imdecode(file_bytes, cv2.IMREAD_COLOR)
