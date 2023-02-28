@@ -12,7 +12,7 @@ https://dipitvasdev-color-pick-image-segmentation-run-evfp9a.streamlit.app/
 
 #### Video
 
-[![Watch the video](https://ibb.co/yV47cMQ)](https://youtu.be/ZUac852rSEo)
+[![Watch the video](https://i.ibb.co/PtD0vb6/Streamlit1024-1.png)](https://youtu.be/ZUac852rSEo)
 
 
 ## Run Locally
